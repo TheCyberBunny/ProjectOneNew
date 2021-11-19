@@ -15,6 +15,7 @@ export default class componentOne extends LightningElement {
 
     fields =[Tavern_Reviews_Name_FIELD, Stars_FIELD, Review_Reasons_FIELD];
 
+    //success message, currently not showing on success
     handleSuccess() {
         const toastEvent = new ShowToastEvent({
             title: 'Success',
